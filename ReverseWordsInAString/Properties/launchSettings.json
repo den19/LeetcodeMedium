@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ReverseWordsInAString": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
