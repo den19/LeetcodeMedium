@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IncreasingTripletSubsequence": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
