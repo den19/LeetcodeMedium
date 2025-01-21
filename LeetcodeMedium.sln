@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingTripletSubsequence", "IncreasingTripletSubsequence\IncreasingTripletSubsequence.csproj", "{0F39C280-AFA1-498F-816C-F0A4805517B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression", "StringCompression\StringCompression.csproj", "{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{0F39C280-AFA1-498F-816C-F0A4805517B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F39C280-AFA1-498F-816C-F0A4805517B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F39C280-AFA1-498F-816C-F0A4805517B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +43,6 @@ Global
 		{53FB290B-1683-4E73-8111-E8194F5459D0} = {EED6DD43-D2F3-4B6F-8543-5FBBEA57B4BD}
 		{A4AF034C-CD95-4F4F-973B-D995EA418AE3} = {EED6DD43-D2F3-4B6F-8543-5FBBEA57B4BD}
 		{0F39C280-AFA1-498F-816C-F0A4805517B9} = {EED6DD43-D2F3-4B6F-8543-5FBBEA57B4BD}
+		{8D4FC428-E9E4-4A65-A9FE-68F93CCA2207} = {EED6DD43-D2F3-4B6F-8543-5FBBEA57B4BD}
 	EndGlobalSection
 EndGlobal
