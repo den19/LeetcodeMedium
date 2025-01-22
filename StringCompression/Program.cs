@@ -1,4 +1,6 @@
-﻿namespace StringCompression
+﻿using System.Text;
+
+namespace StringCompression
 {
     /*
     Given an array of characters chars, compress it using the following algorithm:
@@ -23,7 +25,45 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string input = "aabccccaaa";
+            Console.WriteLine($"Input string is: {input}");
+            string output = CompressString(input);
+            Console.WriteLine($"Compress string is: {output}");
+            Console.ReadLine();
+        }
+
+        public static string CompressString(string s)
+        {
+            if (s.Length == 0)
+            {
+                return s;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            char currentChar = s[0];
+            int count = 1;
+
+            for (int i = 1; i < s.Length; i++)
+            {
+                if (s[i] == currentChar)
+                {
+                    count++;
+                }
+                else
+                {
+                    sb.Append(currentChar);
+                    sb.Append(count);
+                    currentChar = s[i];
+                    count = 1;
+                }
+            }
+
+            // Добавляем последний символ и его счётчик
+            sb.Append(currentChar);
+            sb.Append(count);
+
+            // Возвращаем минимальную из двух строк
+            return sb.Length >= s.Length ? s : sb.ToString();
         }
     }
 }
