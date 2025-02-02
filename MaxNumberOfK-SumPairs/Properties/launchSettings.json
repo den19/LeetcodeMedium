@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MaxNumberOfK-SumPairs": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
