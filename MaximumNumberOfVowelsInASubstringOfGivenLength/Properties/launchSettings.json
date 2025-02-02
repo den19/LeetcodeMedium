@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MaximumNumberOfVowelsInASubstringOfGivenLength": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
