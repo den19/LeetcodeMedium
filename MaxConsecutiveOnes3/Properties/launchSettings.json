@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MaxConsecutiveOnes3": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
