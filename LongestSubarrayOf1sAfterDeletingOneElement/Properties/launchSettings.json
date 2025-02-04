@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LongestSubarrayOf1sAfterDeletingOneElement": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
